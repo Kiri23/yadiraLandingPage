@@ -31,7 +31,7 @@ export default function Home() {
         <path d="M6 18a4 4 0 0 1-1.967-.516"></path>
         <path d="M19.967 17.484A4 4 0 0 1 18 18"></path>
       </svg>
-      <span class="sr-only">Mindful Therapies</span>
+      <span class="sr-only">Be In peace</span>
     </a>
     <nav class="ml-auto flex gap-4 sm:gap-6">
       <a class="text-sm font-medium hover:underline underline-offset-4" href="#">
@@ -39,9 +39,6 @@ export default function Home() {
       </a>
       <a class="text-sm font-medium hover:underline underline-offset-4" href="#">
         Services
-      </a>
-      <a class="text-sm font-medium hover:underline underline-offset-4" href="#">
-        Therapists
       </a>
       <a class="text-sm font-medium hover:underline underline-offset-4" href="#">
         Contact
@@ -57,8 +54,7 @@ export default function Home() {
               Discover the Path to Wellbeing
             </h1>
             <p class="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-              At Mindful Therapies, we believe in a holistic approach to mental health and wellness. Our experienced
-              therapists provide personalized care to help you navigate life's challenges and find inner peace.
+              At Be In peace, I believe in a holistic approach to mental health and wellness. I provide personalized care to help you navigate life's challenges and find inner peace.
             </p>
             <div class="space-x-4 mt-6">
               <a
@@ -72,8 +68,8 @@ export default function Home() {
           <div class="flex flex-col items-start space-y-4">
             <div class="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm">Our Approach</div>
             <p class="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-              At Mindful Therapies, we believe in a holistic approach to mental health and wellness. Our experienced
-              therapists provide personalized care to help you navigate life's challenges and find inner peace.
+            At Be In Peace, I believe in a holistic and personalized approach to mental wellness. 
+            I am Dr. Yadira Nogueras-Rosado, and I am here to help you navigate life's challenges and find inner peace with dedicated, compassionate care.
             </p>
           </div>
         </div>
@@ -86,8 +82,8 @@ export default function Home() {
             <div class="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm">Our Services</div>
             <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">Personalized Care for Your Wellbeing</h2>
             <p class="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              At Mindful Therapies, we offer a range of services to address your unique mental health and wellness
-              needs. Our experienced therapists are here to guide you on your journey to personal growth and
+              At Be In peace, we offer a range of services to address your unique mental health and wellness
+              needs. I'm here to guide you on your journey to personal growth and
               fulfillment.
             </p>
           </div>
@@ -138,9 +134,9 @@ export default function Home() {
                 <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
                 <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
               </svg>
-              <h3 class="text-lg font-bold mt-4">Couples Therapy</h3>
+              <h3 class="text-lg font-bold mt-4">Telehealth Services</h3>
               <p class="text-sm mt-2">
-                Strengthen your relationship and improve communication with our specialized couples counseling.
+              Convenient and accessible remote therapy sessions to support your mental health needs.
               </p>
             </div>
           </div>
@@ -165,9 +161,9 @@ export default function Home() {
                 <rect width="7" height="5" x="7" y="7" rx="1"></rect>
                 <rect width="7" height="5" x="10" y="12" rx="1"></rect>
               </svg>
-              <h3 class="text-lg font-bold mt-4">Family Therapy</h3>
+              <h3 class="text-lg font-bold mt-4"> Depression Treatment</h3>
               <p class="text-sm mt-2">
-                Overcome family challenges and build stronger relationships with our family-focused approach.
+              Personalized care to help you overcome life's emotional hurdles and achieve mental well-being.
               </p>
             </div>
           </div>
@@ -181,24 +177,24 @@ export default function Home() {
             <div class="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm">
               Meet Your Therapist
             </div>
-            <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">Meet Our Experienced Therapist</h2>
+            <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">Meet Dr. Yadira Nogueras Rosado</h2>
             <p class="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Our team of licensed therapists are dedicated to helping you achieve your mental health and wellness
-              goals. With a diverse range of specialties, we're equipped to provide personalized care tailored to
-              your unique needs.
+            Welcome! I earned my medical degree from the prestigious Universidad Central Del Caribe, accredited by the Liaison Committee on Medical Education. 
+            Specializing in psychiatry, I completed my residency at the esteemed Ponce Health Science University, an ACGME accredited program. 
+            After my training, I moved to Florida, where I have been dedicated to enhancing community mental health.
             </p>
           </div>
         </div>
         <div class="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-1 md:gap-12 lg:max-w-5xl lg:grid-cols-1">
           <div class="grid gap-1">
             <img
-              src="https://elouwerse.nl/placecircle/300"
-              width="400"
-              height="400"
+              src="/me.png"
+              width="500"
+              height="500"
               alt="Therapist"
               class="mx-auto aspect-square overflow-hidden rounded-xl object-cover object-center"
             />
-            <h3 class="text-lg font-bold">Emily Wilkins, LCSW</h3>
+            <h3 class="text-lg font-bold">Dr. Yadira Nogueras Rosado, MD</h3>
             <p class="text-sm text-gray-500 dark:text-gray-400">
               Specializing in Cognitive-Behavioral Therapy (CBT) and Mindfulness-Based Interventions
             </p>
@@ -237,7 +233,7 @@ export default function Home() {
             <div class="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm">Stay Connected</div>
             <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">Follow Us on Social Media</h2>
             <p class="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Stay up-to-date with the latest news, tips, and resources from Mindful Therapies. Follow us on social
+              Stay up-to-date with the latest news, tips, and resources from Be In peace. Follow us on social
               media to connect with our community.
             </p>
           </div>
@@ -320,7 +316,7 @@ export default function Home() {
     </section>
   </main>
   <footer class="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-    <p class="text-xs text-gray-500 dark:text-gray-400">© 2024 Mindful Therapies. All rights reserved.</p>
+    <p class="text-xs text-gray-500 dark:text-gray-400">© 2024 Be In peace. All rights reserved.</p>
     <nav class="sm:ml-auto flex gap-4 sm:gap-6">
       <a class="text-xs hover:underline underline-offset-4" href="#">
         Privacy Policy
