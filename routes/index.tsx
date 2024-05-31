@@ -57,12 +57,10 @@ export default function Home() {
               At Be In peace, I believe in a holistic approach to mental health and wellness. I provide personalized care to help you navigate life's challenges and find inner peace.
             </p>
             <div class="space-x-4 mt-6">
-              <a
-                class="inline-flex h-9 items-center justify-center rounded-md bg-[#7367F0] px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#6055D6] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#7367F0] disabled:pointer-events-none disabled:opacity-50 dark:bg-[#7367F0] dark:text-gray-50 dark:hover:bg-[#6055D6] dark:focus-visible:ring-[#7367F0]"
-                href="#"
-              >
-                Schedule Appointment
-              </a>
+            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/christian_nogueras94/30min?back=1'});return false;" 
+            class="inline-flex h-9 items-center justify-center rounded-md bg-[#7367F0] px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#6055D6] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#7367F0] disabled:pointer-events-none disabled:opacity-50 dark:bg-[#7367F0] dark:text-gray-50 dark:hover:bg-[#6055D6] dark:focus-visible:ring-[#7367F0]">
+              Schedule time with me
+            </a>
             </div>
           </div>
           <div class="flex flex-col items-start space-y-4">
@@ -216,11 +214,9 @@ export default function Home() {
             </p>
           </div>
           <div class="space-x-4 mt-6">
-            <a
-              class="inline-flex h-9 items-center justify-center rounded-md bg-[#7367F0] px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#6055D6] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#7367F0] disabled:pointer-events-none disabled:opacity-50 dark:bg-[#7367F0] dark:text-gray-50 dark:hover:bg-[#6055D6] dark:focus-visible:ring-[#7367F0]"
-              href="#"
-            >
-              Schedule Appointment
+            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/christian_nogueras94/30min?back=1'});return false;" 
+            class="inline-flex h-9 items-center justify-center rounded-md bg-[#7367F0] px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#6055D6] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#7367F0] disabled:pointer-events-none disabled:opacity-50 dark:bg-[#7367F0] dark:text-gray-50 dark:hover:bg-[#6055D6] dark:focus-visible:ring-[#7367F0]">
+              Schedule time with me
             </a>
           </div>
         </div>
