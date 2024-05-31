@@ -194,7 +194,7 @@ export default function Home() {
             />
             <h3 class="text-lg font-bold">Dr. Yadira Nogueras Rosado, MD</h3>
             <p class="text-sm text-gray-500 dark:text-gray-400">
-              Specializing in Cognitive-Behavioral Therapy (CBT) and Mindfulness-Based Interventions
+              Physichiatry services
             </p>
           </div>
         </div>
