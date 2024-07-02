@@ -1,33 +1,8 @@
 export default function Home() {
   return (
-    <div class="flex flex-col min-h-[100dvh]">
-      <header class="px-4 lg:px-6 h-14 flex items-center">
+    <div class="flex flex-col min-h-[100dvh] pink">
+      <header class="px-4 lg:px-6 h-14 flex items-center bg-pink">
         <a class="flex items-center justify-center" href="#">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="h-6 w-6"
-          >
-            <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z">
-            </path>
-            <path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z">
-            </path>
-            <path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"></path>
-            <path d="M17.599 6.5a3 3 0 0 0 .399-1.375"></path>
-            <path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"></path>
-            <path d="M3.477 10.896a4 4 0 0 1 .585-.396"></path>
-            <path d="M19.938 10.5a4 4 0 0 1 .585.396"></path>
-            <path d="M6 18a4 4 0 0 1-1.967-.516"></path>
-            <path d="M19.967 17.484A4 4 0 0 1 18 18"></path>
-          </svg>
-          <span class="sr-only">Be In peace</span>
         </a>
         <nav class="ml-auto flex gap-4 sm:gap-6">
           <a
@@ -53,12 +28,12 @@ export default function Home() {
       <main class="flex-1">
         <section class="w-full pt-12 md:pt-24 lg:pt-32 xl:pt-40">
           <div class="container px-4 md:px-6 space-y-10 xl:space-y-16">
-            <div class="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16">
+            <div class="grid mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16">
               <div>
-                <h1 class="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
+                <h1 class="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem] text-white">
                   Discover the Path to Wellbeing
                 </h1>
-                <p class="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
+                <p class="mx-auto text-white md:text-xl dark:text-white">
                   At Be In peace, I believe in a holistic approach to mental
                   health and wellness. I provide personalized care to help you
                   navigate life's challenges and find inner peace.
@@ -67,17 +42,17 @@ export default function Home() {
                   <a
                     href=""
                     onclick="Calendly.initPopupWidget({url: 'https://calendly.com/christian_nogueras94/30min?back=1'});return false;"
-                    class="inline-flex h-9 items-center justify-center rounded-md bg-[#7367F0] px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#6055D6] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#7367F0] disabled:pointer-events-none disabled:opacity-50 dark:bg-[#7367F0] dark:text-gray-50 dark:hover:bg-[#6055D6] dark:focus-visible:ring-[#7367F0]"
+                    class="inline-flex h-9 items-center justify-center rounded-md bg-pink px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-pink focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#2B4257] disabled:pointer-events-none disabled:opacity-50 dark:bg-pink dark:text-gray-50 dark:hover:bg-pink dark:focus-visible:ring-[#2B4257]"
                   >
                     Schedule time with me
                   </a>
                 </div>
               </div>
               <div class="flex flex-col items-start space-y-4">
-                <div class="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm">
+                <div class="inline-block rounded-lg bg-pink px-3 py-1 text-sm text-white">
                   Our Approach
                 </div>
-                <p class="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
+                <p class="mx-auto text-gray-500 md:text-xl dark:text-white">
                   At Be In Peace, I believe in a holistic and personalized
                   approach to mental wellness. I am Dr. Yadira Nogueras-Rosado,
                   and I am here to help you navigate life's challenges and find
@@ -91,13 +66,13 @@ export default function Home() {
           <div class="container px-4 md:px-6">
             <div class="flex flex-col items-center justify-center space-y-4 text-center">
               <div class="space-y-2">
-                <div class="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm">
+                <div class="inline-block rounded-lg bg-pink px-3 py-1 text-sm text-white">
                   Our Services
                 </div>
-                <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">
+                <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-white">
                   Personalized Care for Your Wellbeing
                 </h2>
-                <p class="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                <p class="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-white">
                   At Be In peace, we offer a range of services to address your
                   unique mental health and wellness needs. I'm here to guide you
                   on your journey to personal growth and fulfillment.
@@ -106,7 +81,7 @@ export default function Home() {
             </div>
             <div class="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
               <div class="grid gap-1">
-                <div class="bg-[#7367F0] rounded-xl p-6 text-white">
+                <div class="bg-pink rounded-xl p-6 text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -134,7 +109,7 @@ export default function Home() {
                 </div>
               </div>
               <div class="grid gap-1">
-                <div class="bg-[#7367F0] rounded-xl p-6 text-white">
+                <div class="bg-pink rounded-xl p-6 text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -160,7 +135,7 @@ export default function Home() {
                 </div>
               </div>
               <div class="grid gap-1">
-                <div class="bg-[#7367F0] rounded-xl p-6 text-white">
+                <div class="bg-pink rounded-xl p-6 text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -194,13 +169,13 @@ export default function Home() {
           <div class="container px-4 md:px-6">
             <div class="flex flex-col items-center justify-center space-y-4 text-center">
               <div class="space-y-2">
-                <div class="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm">
+                <div class="inline-block rounded-lg bg-pink px-3 py-1 text-sm text-white">
                   Meet Your Therapist
                 </div>
-                <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">
+                <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-white">
                   Meet Dr. Yadira Nogueras Rosado
                 </h2>
-                <p class="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                <p class="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-[#2B4257]">
                   Welcome! I earned my medical degree from the prestigious
                   Universidad Central Del Caribe, accredited by the Liaison
                   Committee on Medical Education. Specializing in psychiatry, I
@@ -220,10 +195,10 @@ export default function Home() {
                   alt="Therapist"
                   class="mx-auto aspect-square overflow-hidden rounded-xl object-cover object-center"
                 />
-                <h3 class="text-lg font-bold">
+                <h3 class="text-lg font-bold text-white">
                   Dr. Yadira Nogueras Rosado, MD
                 </h3>
-                <p class="text-sm text-gray-500 dark:text-gray-400">
+                <p class="text-sm  text-[#2B4257]">
                   Physichiatry services
                 </p>
               </div>
@@ -240,7 +215,7 @@ export default function Home() {
                 <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">
                   Schedule a Session Today
                 </h2>
-                <p class="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                <p class="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   Take the first step towards your mental health and wellness
                   journey. Book an appointment with one of our experienced
                   therapists today.
@@ -250,7 +225,7 @@ export default function Home() {
                 <a
                   href=""
                   onclick="Calendly.initPopupWidget({url: 'https://calendly.com/christian_nogueras94/30min?back=1'});return false;"
-                  class="inline-flex h-9 items-center justify-center rounded-md bg-[#7367F0] px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-[#6055D6] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#7367F0] disabled:pointer-events-none disabled:opacity-50 dark:bg-[#7367F0] dark:text-gray-50 dark:hover:bg-[#6055D6] dark:focus-visible:ring-[#7367F0]"
+                  class="inline-flex h-9 items-center justify-center rounded-md bg-pink px-4 py-2 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-pink focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-pink disabled:pointer-events-none disabled:opacity-50 dark:bg-pink dark:text-gray-50 dark:hover:bg-pink dark:focus-visible:ring-pink"
                 >
                   Schedule time with me
                 </a>
@@ -268,7 +243,7 @@ export default function Home() {
                 <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">
                   Follow Us on Social Media
                 </h2>
-                <p class="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                <p class="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   Stay up-to-date with the latest news, tips, and resources from
                   Be In peace. Follow us on social media to connect with our
                   community.

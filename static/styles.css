@@ -1,7 +1,5 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-html {
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 242 248 / var(--tw-bg-opacity));
-}
+/* BG PINK COLOR #DA978E */
+/* button colors #2B4257 */
