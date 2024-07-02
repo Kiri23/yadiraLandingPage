@@ -26,7 +26,7 @@ export default function Home() {
         </nav>
       </header>
       <main class="flex-1">
-        <section class="w-full pt-12 md:pt-24 lg:pt-32 xl:pt-40">
+        <section class="w-full pt-12">
           <div class="container px-4 md:px-6 space-y-10 xl:space-y-16">
             <div class="grid mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16">
               <div>
@@ -62,7 +62,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section class="w-full py-12 md:py-24 lg:py-32">
+        <section class="w-full py-12">
           <div class="container px-4 md:px-6">
             <div class="flex flex-col items-center justify-center space-y-4 text-center">
               <div class="space-y-2">
@@ -165,7 +165,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section class="w-full py-12 md:py-24 lg:py-32">
+        <section class="w-full py-12">
           <div class="container px-4 md:px-6">
             <div class="flex flex-col items-center justify-center space-y-4 text-center">
               <div class="space-y-2">
@@ -190,22 +190,14 @@ export default function Home() {
               <div class="grid gap-1">
                 <img
                   src="/me.png"
-                  width="500"
-                  height="500"
                   alt="Therapist"
                   class="mx-auto aspect-square overflow-hidden rounded-xl object-cover object-center"
                 />
-                <h3 class="text-lg font-bold text-white">
-                  Dr. Yadira Nogueras Rosado, MD
-                </h3>
-                <p class="text-sm  text-[#2B4257]">
-                  Physichiatry services
-                </p>
               </div>
             </div>
           </div>
         </section>
-        <section class="w-full py-12 md:py-24 lg:py-32">
+        <section class="w-full py-6">
           <div class="container px-4 md:px-6">
             <div class="flex flex-col items-center justify-center space-y-4 text-center">
               <div class="space-y-2">
@@ -233,7 +225,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section class="w-full py-12 md:py-24 lg:py-32">
+        <section class="w-full py-12">
           <div class="container px-4 md:px-6">
             <div class="flex flex-col items-center justify-center space-y-4 text-center">
               <div class="space-y-2">
