@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div class="px-4 md:px-6 space-y-10 xl:space-y-16">
+    <div class="space-y-2 xl:space-y-4">
       <div
         className="hero min-h-screen"
         style={{
