@@ -1,21 +1,33 @@
-import { h } from "preact";
-
-export default function Values() {
+export default function MeetMe() {
   return (
-    <section class="bg-gray-100 p-8 text-center">
-    <h2 class="text-2xl font-bold mb-4">Meet Dr. [Therapist’s Name]</h2>
-    <span
-      class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full mx-auto mb-4"
-    ></span>
-    <p class="mb-6">
-      Dr. [Therapist’s Name] believes in empowering patients to achieve mental
-      wellness through a supportive and comfortable therapeutic process.
-    </p>
-    <button
-      class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 px-4 py-2 bg-blue-600 text-white"
-    >
-      Meet Dr. [Therapist’s Name]
-    </button>
-  </section>
+    <div class="container px-4 md:px-6">
+      <div class="flex flex-col items-center justify-center space-y-4 text-center">
+        <div class="space-y-2">
+          <div class="inline-block rounded-lg bg-pink px-3 py-1 text-sm text-white">
+            Meet Your Therapist
+          </div>
+          <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-white">
+            Meet Dr. Yadira Nogueras Rosado
+          </h2>
+          <p class="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-[#2B4257]">
+            Welcome! I earned my medical degree from the prestigious Universidad
+            Central Del Caribe, accredited by the Liaison Committee on Medical
+            Education. Specializing in psychiatry, I completed my residency at
+            the esteemed Ponce Health Science University, an ACGME accredited
+            program. After my training, I moved to Florida, where I have been
+            dedicated to enhancing community mental health.
+          </p>
+        </div>
+      </div>
+      <div class="mx-auto grid gap-8 sm:max-w-4xl sm:grid-cols-1 md:gap-12 lg:max-w-5xl lg:grid-cols-1">
+        <div class="grid gap-1">
+          <img
+            src="/me.png"
+            alt="Therapist"
+            class="mx-auto aspect-square overflow-hidden rounded-xl object-cover object-center"
+          />
+        </div>
+      </div>
+    </div>
   );
 }
