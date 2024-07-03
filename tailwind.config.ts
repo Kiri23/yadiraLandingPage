@@ -1,4 +1,5 @@
 import { type Config } from "tailwindcss";
+import daisyui from "npm:daisyui";
 
 export default {
   content: [
@@ -11,5 +12,10 @@ export default {
     container: {
       center: true,
     },
+  },
+  // @ts-ignore
+  plugins: [daisyui],
+  daisyui: {
+    themes: ["light"], // or any other themes you want to use
   },
 } satisfies Config;
