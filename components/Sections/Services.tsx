@@ -3,13 +3,13 @@ export default function Services() {
     <div class="container px-4 md:px-6">
       <div class="flex flex-col items-center justify-center space-y-4 text-center">
         <div class="space-y-2">
-          <div class="inline-block rounded-lg bg-pink px-3 py-1 text-sm text-white">
+          <div class="inline-block rounded-lg bg-pink px-3 py-1 text-sm text-dark">
             Our Services
           </div>
-          <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-white">
+          <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-dark">
             Personalized Care for Your Wellbeing
           </h2>
-          <p class="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-white">
+          <p class="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-dark">
             At Be In peace, we offer a range of services to address your unique
             mental health and wellness needs. I'm here to guide you on your
             journey to personal growth and fulfillment.
@@ -18,7 +18,7 @@ export default function Services() {
       </div>
       <div class="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3">
         <div class="grid gap-1">
-          <div class="bg-pink rounded-xl p-6 text-white">
+          <div class="bg-pink rounded-xl p-6 text-dark">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -46,7 +46,7 @@ export default function Services() {
           </div>
         </div>
         <div class="grid gap-1">
-          <div class="bg-pink rounded-xl p-6 text-white">
+          <div class="bg-pink rounded-xl p-6 text-dark">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -72,7 +72,7 @@ export default function Services() {
           </div>
         </div>
         <div class="grid gap-1">
-          <div class="bg-pink rounded-xl p-6 text-white">
+          <div class="bg-pink rounded-xl p-6 text-dark">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"

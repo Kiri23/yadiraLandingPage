@@ -3,10 +3,10 @@ export default function MeetMe() {
     <div class="container px-4 md:px-6">
       <div class="flex flex-col items-center justify-center space-y-4 text-center">
         <div class="space-y-2">
-          <div class="inline-block rounded-lg bg-pink px-3 py-1 text-sm text-white">
+          <div class="inline-block rounded-lg bg-pink px-3 py-1 text-sm text-dark">
             Meet Your Therapist
           </div>
-          <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-white">
+          <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-dark">
             Meet Dr. Yadira Nogueras Rosado
           </h2>
           <p class="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-[#2B4257]">

@@ -5,7 +5,7 @@ export default function Navbar() {
         <a class="btn btn-ghost text-xl">Be In peace</a>
       </div>
       <div class="navbar-end">
-        <a class="btn">Schedule a session</a>
+        <a class="btn bg-blue text-neutral-content">Schedule a session</a>
       </div>
     </header>
   );
