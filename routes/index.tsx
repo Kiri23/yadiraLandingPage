@@ -4,6 +4,7 @@ import Footer from "../components/Footer.tsx";
 import Navbar from "../components/Navbar.tsx";
 import {
   HeroSection,
+  HeroSection2,
   MeetTherapistSection,
   ServicesSection,
   ServicesSection2,
@@ -52,6 +53,26 @@ const versioningPage = (version: string) => {
             <main class="flex-1">
               <section id="hero" class="w-full">
                 <HeroSection />
+              </section>
+              <section id="services" class="w-full py-12">
+                <ServicesSection2 />
+              </section>
+              <section id="meetMe" class="w-full">
+                <MeetTherapistSection />
+              </section>
+            </main>
+            <Footer />
+          </div>
+        </>
+      );
+    case "3":
+      return (
+        <>
+          <div class="flex flex-col">
+            <Navbar />
+            <main class="flex-1">
+              <section id="hero" class="w-full">
+                <HeroSection2 />
               </section>
               <section id="services" class="w-full py-12">
                 <ServicesSection2 />
