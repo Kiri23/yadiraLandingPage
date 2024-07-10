@@ -6,15 +6,15 @@ export default function Services2() {
                     class={"border border-gray-200 shadow-sm rounded-xl p-4 md:p-5"}
                 >
                     <img
-                        class="w-56 h-56 m-auto rounded-t-xl sm:rounded-se-none"
+                        class="w-28 h-28 m-auto rounded-t-xl sm:rounded-se-non pb-4"
                         src="/doctor.svg"
                         alt="Doctor"
                     />
-                    <h4 class="text-lg sm:text-xl font-semibold text-gray-800">
+                    <h4 class="text-lg sm:text-xl font-semibold text-gray-800 text-center">
                         Personalized Care for Your Wellbeing
                     </h4>
 
-                    <p class="mt-2 sm:mt-3 text-xl">
+                    <p class="mt-2 sm:mt-3 text-xl text-center">
                         At Be In peace, we offer a range of services to address
                         your unique mental health and wellness needs. I'm here
                         to guide you on your journey to personal growth and
@@ -25,14 +25,14 @@ export default function Services2() {
                     class={"border border-gray-200 shadow-sm rounded-xl p-4 md:p-5"}
                 >
                     <img
-                        class="w-56 h-56 m-auto rounded-t-xl sm:rounded-se-none"
+                        class="w-24 h-24 m-auto rounded-t-xl sm:rounded-se-none pb-4"
                         src="/hospital.svg"
                         alt="Doctor"
                     />
-                    <h4 class="text-lg sm:text-xl font-semibold text-gray-800">
+                    <h4 class="text-lg sm:text-xl font-semibold text-gray-800 text-center">
                         Individual Therapy
                     </h4>
-                    <p class="mt-2 sm:mt-3 text-xl">
+                    <p class="mt-2 sm:mt-3 text-xl text-center">
                         Personalized one-on-one sessions to address your
                         specific mental health concerns and goals.
                     </p>
@@ -41,14 +41,14 @@ export default function Services2() {
                     class={"border border-gray-200 shadow-sm rounded-xl p-4 md:p-5"}
                 >
                     <img
-                        class="w-56 h-56 m-auto rounded-t-xl sm:rounded-se-none"
+                        class="w-24 h-24 m-auto rounded-t-xl sm:rounded-se-none pb-4"
                         src="/capsules-solid.svg"
                         alt="Doctor"
                     />
-                    <h4 class="text-lg sm:text-xl font-semibold text-gray-800">
+                    <h4 class="text-lg sm:text-xl font-semibold text-gray-800 text-center">
                         Telehealth Services
                     </h4>
-                    <p class="mt-2 sm:mt-3 text-xl">
+                    <p class="mt-2 sm:mt-3 text-xl text-center">
                         Convenient and accessible remote therapy sessions to
                         support your mental health needs.
                     </p>

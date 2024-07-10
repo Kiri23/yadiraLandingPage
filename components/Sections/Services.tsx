@@ -6,7 +6,7 @@ export default function Services() {
           <h4 class="text-lg sm:text-xl font-semibold text-gray-800">
             Personalized Care for Your Wellbeing
           </h4>
-          <p class="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-600">
+          <p class="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blueBrand">
             40%
           </p>
           <p class="mt-1 text-gray-500">Increase</p>
@@ -15,7 +15,7 @@ export default function Services() {
           <h4 class="text-lg sm:text-xl font-semibold text-gray-800">
             Individual Therapy
           </h4>
-          <p class="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-600">
+          <p class="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blueBrand">
             80%
           </p>
           <p class="mt-1 text-gray-500">partner with Preline</p>
@@ -24,7 +24,7 @@ export default function Services() {
           <h4 class="text-lg sm:text-xl font-semibold text-gray-800">
             Telehealth Services
           </h4>
-          <p class="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blue-600">
+          <p class="mt-2 sm:mt-3 text-4xl sm:text-6xl font-bold text-blueBrand">
             75%.
           </p>
           <p class="mt-1 text-gray-500">this year alone</p>

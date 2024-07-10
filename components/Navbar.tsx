@@ -13,7 +13,7 @@ export default function Navbar() {
         <div class=" flex items-center md:col-span-6 ms-auto">
           <button
             type={"button"}
-            class="py-4 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white hover:shadow-lg"
+            class="py-4 px-4 inline-flex items-center gap-x-2 text-sm text-white font-medium rounded-xl bg-blueBrand hover:shadow-lg"
           >
             Schedule a session
           </button>
