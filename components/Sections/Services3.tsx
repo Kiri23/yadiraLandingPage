@@ -32,7 +32,7 @@ export default function Services2() {
                     class={"shadow-sm p-10"}
                 >
                     <h4 class="text-4xl font-semibold text-gray-800">
-                        Telehealth Services
+                        Quality Care
                     </h4>
                     <p class="mt-2 sm:mt-3 text-xl">
                         Convenient and accessible remote therapy sessions to
