@@ -2,12 +2,16 @@ import { Handlers, PageProps } from "$fresh/server.ts";
 
 import Footer from "../components/Footer.tsx";
 import Navbar from "../components/Navbar.tsx";
+import Navbar2 from "../components/Navbar2.tsx";
+
 import {
   HeroSection,
   HeroSection2,
+  HeroSection3,
   MeetTherapistSection,
   ServicesSection,
   ServicesSection2,
+  ServicesSection3,
 } from "../components/Sections/index.tsx";
 
 export const handler: Handlers = {
@@ -76,6 +80,29 @@ const versioningPage = (version: string) => {
               </section>
               <section id="services" class="w-full py-12">
                 <ServicesSection2 />
+              </section>
+              <section id="meetMe" class="w-full">
+                <MeetTherapistSection />
+              </section>
+            </main>
+            <Footer />
+          </div>
+        </>
+      );
+    case "4":
+      return (
+        <>
+          <div class="flex flex-col bg-cremita">
+            <Navbar2 />
+            <main class="flex-1">
+              <section
+                id="hero"
+                class="w-full border-b-brownBrand border-b-2"
+              >
+                <HeroSection3 />
+              </section>
+              <section id="services" class="w-full py-8">
+                <ServicesSection3 />
               </section>
               <section id="meetMe" class="w-full">
                 <MeetTherapistSection />

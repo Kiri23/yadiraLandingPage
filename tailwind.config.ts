@@ -18,6 +18,9 @@ export default {
           120: "#fce2f1",
           150: "#fcdbee",
         },
+        cremita: "#f8f8f0",
+        greenBrand: "#c5cfc6",
+        brownBrand: "#7a7369",
       },
     },
     container: {
