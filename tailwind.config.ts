@@ -6,14 +6,18 @@ export default {
     "node_modules/preline/dist/*.js",
   ],
   theme: {
-    colors: {
-      pink: "#f5dae1",
-      blue: "#2B4257",
-      white: "#ffffff",
-    },
     extend: {
       backgroundImage: {
         "hero-person": "url('heroPerson')",
+      },
+      colors: {
+        pinkBrand: "#f5dae1",
+        blueBrand: "#2B4257",
+        pink: {
+          110: "#fce5f2",
+          120: "#fce2f1",
+          150: "#fcdbee",
+        },
       },
     },
     container: {
