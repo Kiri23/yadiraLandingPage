@@ -10,7 +10,7 @@ export default function Services2() {
                         Empathy
                     </h4>
 
-                    <p class="mt-2 sm:mt-3 text-xl">
+                    <p class="mt-2 sm:mt-3 text-lg">
                         At Be In peace, we offer a range of services to address
                         your unique mental health and wellness needs. I'm here
                         to guide you on your journey to personal growth and
@@ -23,7 +23,7 @@ export default function Services2() {
                     <h4 class="text-4xl font-semibold text-gray-800">
                         Compassion
                     </h4>
-                    <p class="mt-2 sm:mt-3 text-xl">
+                    <p class="mt-2 sm:mt-3 text-lg">
                         Personalized one-on-one sessions to address your
                         specific mental health concerns and goals.
                     </p>
@@ -34,7 +34,7 @@ export default function Services2() {
                     <h4 class="text-4xl font-semibold text-gray-800">
                         Quality Care
                     </h4>
-                    <p class="mt-2 sm:mt-3 text-xl">
+                    <p class="mt-2 sm:mt-3 text-lg">
                         Convenient and accessible remote therapy sessions to
                         support your mental health needs.
                     </p>
