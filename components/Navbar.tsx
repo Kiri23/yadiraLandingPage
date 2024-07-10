@@ -4,7 +4,8 @@ export default function Navbar() {
     // 100 - fc e7 f3
     // 200 - fb cf e8
     // 300 - f9 a8 d4
-    <header class="flex flex-wrap md:justify-start md:flex-nowrap bg-pink-110 z-50 w-full py-7">
+    // bg-pink-110
+    <header class="flex flex-wrap md:justify-start md:flex-nowrap bg-gray-50 z-50 w-full py-7">
       <nav className="relative w-full flex flex-wrap md:grid md:grid-cols-12 basis-full items-center px-4 md:px-8 mx-auto">
         <div class="md:col-span-6">
           <a class="btn btn-ghost text-xl">Be In peace</a>
