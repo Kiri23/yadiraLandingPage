@@ -4,7 +4,7 @@ export default function Services2() {
             <h3 class={"text-3xl text-center pb-8"}>My values</h3>
             <div class="grid grid-cols-3 border-y-brownBrand border-y-2">
                 <div
-                    class={"border-r-2 border-r-brownBrand shadow-sm p-10"}
+                    class={"border-r-2 border-r-brownBrand shadow-sm p-10 text-center"}
                 >
                     <h4 class="text-4xl font-semibold text-gray-800">
                         Empathy
@@ -18,7 +18,7 @@ export default function Services2() {
                     </p>
                 </div>
                 <div
-                    class={"border-r-2 border-r-brownBrand shadow-sm p-10"}
+                    class={"border-r-2 border-r-brownBrand shadow-sm p-10 text-center"}
                 >
                     <h4 class="text-4xl font-semibold text-gray-800">
                         Compassion
@@ -29,7 +29,7 @@ export default function Services2() {
                     </p>
                 </div>
                 <div
-                    class={"shadow-sm p-10"}
+                    class={"shadow-sm p-10 text-center"}
                 >
                     <h4 class="text-4xl font-semibold text-gray-800">
                         Quality Care
