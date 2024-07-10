@@ -1,3 +1,4 @@
+// Im using preline examples to build out the components
 export default function Navbar() {
   return (
     <header class="flex flex-wrap md:justify-start md:flex-nowrap bg-pink z-50 w-full py-7">
