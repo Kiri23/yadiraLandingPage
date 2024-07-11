@@ -19,7 +19,7 @@ import {
 export const handler: Handlers = {
   GET(req, ctx) {
     const url = new URL(req.url);
-    const version = url.searchParams.get("version") || "1";
+    const version = url.searchParams.get("version") || "2";
     return ctx.render({ version });
   },
 };
