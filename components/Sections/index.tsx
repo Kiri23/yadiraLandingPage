@@ -6,3 +6,5 @@ export { default as ServicesSection } from "./Services.tsx";
 export { default as ServicesSection2 } from "./Services2.tsx";
 export { default as ServicesSection3 } from "./Services3.tsx";
 export { default as MeetTherapistSection } from "./MeetMe.tsx";
+export { default as FaqSection } from "./Faq.tsx";
+export { default as FollowUsSection } from "./FollowUs.tsx";

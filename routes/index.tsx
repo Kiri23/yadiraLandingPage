@@ -5,6 +5,8 @@ import Navbar from "../components/Navbar.tsx";
 import Navbar2 from "../components/Navbar2.tsx";
 
 import {
+  FaqSection,
+  FollowUsSection,
   HeroSection,
   HeroSection2,
   HeroSection3,
@@ -63,6 +65,12 @@ const versioningPage = (version: string) => {
               </section>
               <section id="meetMe" class="w-full">
                 <MeetTherapistSection />
+              </section>
+              <section id="faq" class={"w-full"}>
+                <FaqSection />
+              </section>
+              <section id="Follow us" class={"w-full"}>
+                <FollowUsSection />
               </section>
             </main>
             <Footer />
