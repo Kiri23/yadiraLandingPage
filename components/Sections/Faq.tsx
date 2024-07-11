@@ -15,11 +15,6 @@ export default function Faq() {
             answer:
                 "For your convenience, all prescriptions are sent electronically to the pharmacy of your choice. We'll discuss any potential medications during your session, including their benefits and possible side effects, to ensure you're fully informed about your treatment.",
         },
-        {
-            question: "Do you offer telehealth services?",
-            answer:
-                "Yes, we provide secure telehealth services for those who prefer remote consultations or are unable to visit our office in person. These sessions are conducted through a HIPAA-compliant platform to ensure your privacy.",
-        },
     ];
 
     return (
