@@ -1,83 +1,49 @@
 export default function Faq() {
+    const faqs = [
+        {
+            question: "What insurance plans do you accept?",
+            answer:
+                "We currently accept Aetna, Cigna, and Florida Blue Cross. If you have a different insurance provider, please contact our office to discuss potential options.",
+        },
+        {
+            question: "What can I expect during my first session?",
+            answer:
+                "Your first session will be a comprehensive diagnostic assessment. We'll discuss your symptoms, medical history, and any previous diagnoses to create a personalized treatment plan. This plan may include medication, therapeutic techniques, or a combination of both, tailored to your specific needs.",
+        },
+        {
+            question: "How are medications prescribed and managed?",
+            answer:
+                "For your convenience, all prescriptions are sent electronically to the pharmacy of your choice. We'll discuss any potential medications during your session, including their benefits and possible side effects, to ensure you're fully informed about your treatment.",
+        },
+        {
+            question: "Do you offer telehealth services?",
+            answer:
+                "Yes, we provide secure telehealth services for those who prefer remote consultations or are unable to visit our office in person. These sessions are conducted through a HIPAA-compliant platform to ensure your privacy.",
+        },
+    ];
+
     return (
-        <>
-            <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-                <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-                    <h2 class="text-2xl font-bold md:text-3xl md:leading-tight text-gray-800">
-                        Frequently Asked Questions
-                    </h2>
-                </div>
+        <section className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+            <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+                <h2 className="text-2xl font-bold md:text-3xl md:leading-tight text-blueBrand">
+                    Frequently Asked Questions
+                </h2>
+            </div>
 
-                <div class="max-w-5xl mx-auto">
-                    <div class="grid sm:grid-cols-2 gap-6 md:gap-12">
-                        <div>
-                            <h3 class="text-lg font-semibold text-gray-800">
-                                Can I cancel at anytime?
+            <div className="max-w-5xl mx-auto">
+                <div className="grid sm:grid-cols-2 gap-6 md:gap-12">
+                    {faqs.map((faq, index) => (
+                        <div key={index}>
+                            <h3 className="text-lg font-semibold text-blueBrand">
+                                {faq.question}
                             </h3>
-                            <p class="mt-2 text-gray-600">
-                                Yes, you can cancel anytime no questions are
-                                asked while you cancel but we would highly
-                                appreciate if you will give us some feedback.
+                            <p className="mt-2 text-dark">
+                                {faq.answer}
                             </p>
                         </div>
-
-                        <div>
-                            <h3 class="text-lg font-semibold text-gray-800">
-                                My team has credits. How do we use them?
-                            </h3>
-                            <p class="mt-2 text-gray-600">
-                                Once your team signs up for a subscription plan.
-                                This is where we sit down, grab a cup of coffee
-                                and dial in the details.
-                            </p>
-                        </div>
-
-                        <div>
-                            <h3 class="text-lg font-semibold text-gray-800">
-                                How does Preline's pricing work?
-                            </h3>
-                            <p class="mt-2 text-gray-600">
-                                Our subscriptions are tiered. Understanding the
-                                task at hand and ironing out the wrinkles is
-                                key.
-                            </p>
-                        </div>
-
-                        <div>
-                            <h3 class="text-lg font-semibold text-gray-800">
-                                How secure is Preline?
-                            </h3>
-                            <p class="mt-2 text-gray-600">
-                                Protecting the data you trust to Preline is our
-                                first priority. This part is really crucial in
-                                keeping the project in line to completion.
-                            </p>
-                        </div>
-
-                        <div>
-                            <h3 class="text-lg font-semibold text-gray-800">
-                                Do you offer discounts?
-                            </h3>
-                            <p class="mt-2 text-gray-600">
-                                We've built in discounts at each tier for teams.
-                                The time has come to bring those ideas and plans
-                                to life.
-                            </p>
-                        </div>
-
-                        <div>
-                            <h3 class="text-lg font-semibold text-gray-800">
-                                What is your refund policy?
-                            </h3>
-                            <p class="mt-2 text-gray-600">
-                                We offer refunds. We aim high at being focused
-                                on building relationships with our clients and
-                                community.
-                            </p>
-                        </div>
-                    </div>
+                    ))}
                 </div>
             </div>
-        </>
+        </section>
     );
 }
