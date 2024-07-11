@@ -5,10 +5,14 @@ export default function Navbar() {
     // 200 - fb cf e8
     // 300 - f9 a8 d4
     // bg-pink-110
-    <header class="flex flex-wrap sticky top-0 md:relative md:justify-start md:flex-nowrap bg-pink-110 z-50 w-full py-7">
+    <header class="flex flex-wrap sticky top-0 md:relative md:justify-start md:flex-nowrap bg-pink-110 z-50 w-full">
       <nav className="relative w-full flex flex-wrap md:grid md:grid-cols-12 basis-full items-center px-4 md:px-8 mx-auto">
         <div class="md:col-span-6">
-          <a class="btn btn-ghost text-xl">Be In peace</a>
+          <img
+            src="beInPeaceLogo.svg"
+            alt="Logo"
+            className="w-28 h-28"
+          />
         </div>
         <div class=" flex items-center md:col-span-6 ms-auto">
           <button
