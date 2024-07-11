@@ -8,7 +8,7 @@ export default function MeetMe() {
         <div className="space-y-6">
           <p className="text-dark text-lg leading-relaxed">
             Dr. Yadira Nogueras-Rosado is an experienced psychiatrist with over
-            15 years of practice, specializing in an integrated approach to
+            5 years of practice, specializing in an integrated approach to
             mental health. A graduate of Universidad Central Del Caribe with
             residency at Ponce Health Science University.
           </p>
