@@ -15,7 +15,7 @@ export default function Hero() {
 
           <div class="mt-5 lg:mt-8 flex flex-col items-center gap-2 sm:flex-row sm:gap-3">
             <a
-              class="w-full sm:w-auto py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blueBrand text-white hover:bg-blueBrand"
+              class="w-full sm:w-auto p-6 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blueBrand text-white hover:shadow-xl"
               href="#"
             >
               Schedule time with me
