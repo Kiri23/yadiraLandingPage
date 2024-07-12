@@ -2,8 +2,9 @@ export default function Services2() {
     return (
         <div class="max-w-[85rem] bg-gray-50 px-4 py-10 sm:px-6 sm:mt-10 lg:px-8 lg:py-14 mx-auto">
             <div class="grid gap-6 grid-cols-1 sm:gap-12 lg:grid-cols-3 lg:gap-8">
+                {/* w-336 m-auto */}
                 <div
-                    class={"border border-pinkBrand shadow-sm rounded-xl p-4 md:p-5"}
+                    class={"w-[336px] mx-auto border-2 border-pinkBrand shadow-sm rounded-xl p-4 md:p-10"}
                 >
                     {
                         /* <img
@@ -24,7 +25,7 @@ export default function Services2() {
                     </p>
                 </div>
                 <div
-                    class={"border border-pinkBrand shadow-sm rounded-xl p-4 md:p-5"}
+                    class={"w-[336px] mx-auto border-2 border-pinkBrand shadow-sm rounded-xl p-4 md:p-10"}
                 >
                     {
                         /* <img
@@ -42,7 +43,7 @@ export default function Services2() {
                     </p>
                 </div>
                 <div
-                    class={"border border-pinkBrand shadow-sm rounded-xl p-4 md:p-5"}
+                    class={"w-[336px] mx-auto border-2 border-pinkBrand shadow-sm rounded-xl p-4 md:p-10"}
                 >
                     {
                         /* <img
