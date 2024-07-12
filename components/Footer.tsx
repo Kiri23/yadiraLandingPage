@@ -2,8 +2,8 @@ import CurrentYear from "../islands/CurrentYear.tsx";
 
 export default function Footer() {
     return (
-        <footer class="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-            <p class="text-xs text-gray-500 dark:text-gray-400">
+        <footer class="flex flex-col gap-2 text-blueBrand sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
+            <p class="text-xs">
                 © <CurrentYear /> Be In peace. All rights reserved.
             </p>
             {

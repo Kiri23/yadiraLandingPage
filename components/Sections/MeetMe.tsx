@@ -22,7 +22,7 @@ export default function MeetMe() {
                 <svg
                   className="w-6 h-6 text-blueBrand flex-shrink-0 mr-2"
                   fill="none"
-                  stroke="currentColor"
+                  stroke="#2B4257"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >

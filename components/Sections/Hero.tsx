@@ -4,7 +4,7 @@ export default function Hero() {
     <div class=" max-w-[95rem] mx-auto mt-5 sm:mt-12 drop-shadow-xl sm:px-6 lg:px-8">
       <div class="grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center">
         <div class="text-center mx-4 sm:text-start lg:col-span-3">
-          <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-6xl sm:py-2">
+          <h1 class="block text-3xl font-bold text-blueBrand sm:text-4xl md:text-5xl lg:text-6xl sm:py-2">
             Discover the Path to Wellbeing
           </h1>
           <p class="mt-3 text-lg text-gray-800">
