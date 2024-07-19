@@ -8,7 +8,7 @@ export default function Hero() {
               Find Your Peace
             </span>
             <br />
-            <span className="text-xl font-light lg:text-4xl px-5">
+            <span className="text-2xl font-normal lg:px-3 lg:font-light lg:text-4xl">
               Discover Your Resilience
             </span>
           </h1>
