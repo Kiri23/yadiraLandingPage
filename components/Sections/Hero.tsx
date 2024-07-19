@@ -2,9 +2,9 @@ export default function Hero() {
   return (
     <div className="mx-auto font-sans font-light lg:pt-12">
       <div className="flex flex-col lg:flex-row lg:items-center lg:gap-x-12">
-        <div className="lg:w-[45%] text-center mx-3 lg:text-left lg:mx-0 mb-8 lg:mb-0">
+        <div className="lg:w-[45%] text-center mx-3 lg:text-left mb-8 lg:mt-36">
           <h1 className="text-blueBrand leading-relaxed">
-            <span className="text-5xl lg:text-6xl">
+            <span className="text-5xl font-normal lg:text-6xl">
               Find Your Peace
             </span>
             <br />
@@ -12,15 +12,15 @@ export default function Hero() {
               Discover Your Resilience
             </span>
           </h1>
-          <p className="mt-3 text-base leading-loose">
+          <p className="mt-3 text-base leading-loose lg:mt-6">
             Your journey to serenity and personal evolution begins here. We
             offer gentle guidance to help you navigate life's challenges with
             grace and confidence.
           </p>
-          <div className="mt-8 w-full hidden lg:visible">
+          <div className="mt-5 w-full hidden lg:block">
             <button
               type={"button"}
-              class="lg:w-1/2 p-2 lg:p-6 sm:py-3 text-lg uppercase text-white font-medium rounded-xl bg-blueBrand hover:shadow-lg"
+              class="lg:w-1/2 p-2 text-lg uppercase text-white font-medium rounded-xl bg-blueBrand hover:shadow-lg lg:p-4"
             >
               Schedule a session
             </button>

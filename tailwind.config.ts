@@ -17,7 +17,7 @@ export default {
       },
       colors: {
         pinkBrand: "#f5dae1",
-        blueBrand: "#33516C",
+        blueBrand: "#2F597F",
         pink: {
           110: "#fce5f2",
           120: "#fce2f1",
