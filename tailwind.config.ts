@@ -7,12 +7,17 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Quicksand", "sans-serif"],
+        sans2: ["Sen"],
+      },
       backgroundImage: {
         "hero-person": "url('heroPerson')",
+        "serene-sky": "linear-gradient(180deg, #FEE9EC 0%, #FBEDF2 100%)",
       },
       colors: {
         pinkBrand: "#f5dae1",
-        blueBrand: "#2B4257",
+        blueBrand: "#33516C",
         pink: {
           110: "#fce5f2",
           120: "#fce2f1",

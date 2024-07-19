@@ -6,7 +6,7 @@ export default function MeetMe() {
       </h2>
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6">
-          <p className="text-dark text-lg leading-relaxed">
+          <p className="text-dark text-lg leading-loose">
             Dr. Yadira Nogueras-Rosado is an experienced psychiatrist with over
             5 years of practice, specializing in an integrated approach to
             mental health. A graduate of Universidad Central Del Caribe with
@@ -38,7 +38,7 @@ export default function MeetMe() {
               </li>
             ))}
           </ul>
-          <p className="text-dark text-lg leading-relaxed">
+          <p className="text-dark text-lg leading-loose">
             Dr. Nogueras-Rosado provides personalized care, developing
             individualized treatment plans that address the whole person, not
             just symptoms. Her unique blend of evidence-based treatments and

@@ -54,9 +54,9 @@ const versioningPage = (version: string) => {
     case "2":
       return (
         <>
-          <div class="flex flex-col">
+          <div class="flex flex-col bg-serene-sky min-h-screen">
             <Navbar />
-            <main class=" px-4 flex-1">
+            <main class="flex-1 mx-10">
               <section id="hero" class="w-full">
                 <HeroSection />
               </section>

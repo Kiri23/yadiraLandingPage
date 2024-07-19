@@ -1,9 +1,9 @@
 export default function FollowUs() {
     return (
         <>
-            <div class="container flex flex-col items-center justify-center px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+            <div class="container flex font-sans flex-col items-center justify-center px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
                 <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-                    <h2 class="text-2xl font-bold md:text-3xl md:leading-tight text-gray-800">
+                    <h2 class="text-2xl font-bold md:text-3xl md:leading-tight text-blueBrand">
                         Follow us in social media
                     </h2>
                 </div>

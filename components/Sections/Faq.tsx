@@ -18,7 +18,7 @@ export default function Faq() {
     ];
 
     return (
-        <section className="max-w-[85rem] px-4 py-10 bg-gray-50 sm:px-6 sm:mt-10 lg:px-8 lg:py-14 mx-auto">
+        <section className="px-4 py-10 sm:px-6 sm:mt-10 lg:px-8 lg:py-14 mx-auto">
             <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
                 <h2 className="text-2xl font-bold md:text-3xl md:leading-tight text-blueBrand">
                     Frequently Asked Questions
@@ -32,7 +32,7 @@ export default function Faq() {
                             <h3 className="text-lg font-semibold text-blueBrand">
                                 {faq.question}
                             </h3>
-                            <p className="mt-2 text-dark">
+                            <p className="mt-2 text-dark leading-loose">
                                 {faq.answer}
                             </p>
                         </div>
