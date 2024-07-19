@@ -10,7 +10,7 @@ export default function Navbar() {
         />
         <button
           type={"button"}
-          class="p-6 sm:py-3 text-sm uppercase text-white font-medium rounded-xl bg-blueBrand hover:shadow-lg"
+          class="p-3 sm:py-3 text-sm uppercase text-white font-medium rounded-xl bg-blueBrand hover:shadow-lg"
         >
           Schedule a session
         </button>

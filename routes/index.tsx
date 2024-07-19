@@ -56,7 +56,7 @@ const versioningPage = (version: string) => {
         <>
           <div class="flex flex-col bg-serene-sky min-h-screen">
             <Navbar />
-            <main class="flex-1 mx-10">
+            <main class="flex-1 mx-2 lg:mx-10">
               <section id="hero" class="w-full">
                 <HeroSection />
               </section>
